@@ -10,8 +10,9 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   color: #444444;
+  background-color: #f9fbfc;
 }
 
 a {
@@ -30,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -179,7 +180,7 @@ h6 {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 0.8px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 #header .logo a {
@@ -506,7 +507,7 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #222222;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 #hero h1 span {
@@ -521,7 +522,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -730,11 +731,11 @@ section {
   z-index: -1;
 }
 
-.featured-services .icon-box:hover::before {
+/* .featured-services .icon-box:hover::before {
   background: #4361ee;
   top: 0;
   border-radius: 0px;
-}
+} */
 
 .featured-services .icon {
   margin-bottom: 15px;
@@ -765,11 +766,16 @@ section {
 
 .featured-services .icon-box:hover .title a,
 .featured-services .icon-box:hover .description {
-  color: #fff;
+  color: #000000;
+  
+}
+
+.featured-services .icon-box:hover {
+  box-shadow: 0 0 30px 0 rgba(35, 55, 108, 0.224);
 }
 
 .featured-services .icon-box:hover .icon i {
-  color: #fff;
+  color: #106eea;
 }
 
 /*--------------------------------------------------------------
@@ -1377,7 +1383,7 @@ section {
   font-size: 36px;
   color: #106eea;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1433,7 +1439,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1756,7 +1762,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   color: #777777;
 }
 
